@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body style*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.color-orange {
+    color: orange;
+}
+
+/*banner style*/
+.header {
+    display: flex;
+}
+
+
+/*banner title*/
+.banner-title {
+    margin-top: 50px;
+    padding-left: 5px;
+    color: #333333;
+    font-family: 'Yeseva One';
+    font-weight: 100;
+}
+
+.banner-title-2nd {
+    font-family: 'Yeseva One';
+}
+
+.banner {
+    width: 50%;
+    position: relative;
+}
+
+.banner-title h1::before {
+    content: '';
+    height: 90px;
+    width: 4px;
+    background-color: #FF5959;
+    position: absolute;
+    left: 130px;
+    top: 162px;
+}
+
+.banner-description {
+    color: #333333;
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.banner-description h2 {
+    margin: 20px 0px;
+}
+
+/*explor button*/
+.explore-btn {
+    margin-top: 20px;
+    background-color: #FF5959;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.banner img {
+    max-width: 400px;
+}
+
+/*banner end*/
+/*My Mision section*/
+.mission-title {
+    margin-top: 100px;
+}
+
+.mission-title h1 {
+    text-align: center;
+    margin: 50px 0px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.mission-container {
+    display: flex;
+
+}
+
+.mission {
+    padding: 20px;
+    width: 33%;
+    border: 10px;
+}
+
+.mission img {
+    width: 100px;
+}
+
+/*My Mission end*/
+
+.develop-container {
+    margin-top: 200px;
+    display: flex;
+}
+
+.develop-image {
+    width: 40%;
+}
+
+.develop-image img {
+    width: 100%;
+
+}
+
+.develop-description {
+    width: 70%;
+    margin-left: 100px;
+    padding: 20px 0px;
+    color: #333333;
+
+}
+
+.develop-description h2 {
+    color: black;
+
+}
+
+.develop-description p {
+    margin: 20px 0px;
+}
+
+.develop-image {
+    position: relative;
+}
+
+.develop-image::before {
+    content: '';
+    background-image: url('../images/shape-1.png');
+    background-size: cover;
+    position: absolute;
+    height: 227px;
+    width: 227px;
+    z-index: -1;
+    left: -100px;
+    top: 50px;
+}
+
+/*read the documentation button*/
+.read-doc-btn {
+    margin-top: 20px;
+    background-color: #FF5959;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+/*global container*/
+.global-container {
+    display: flex;
+    margin-top: 100px;
+    padding: 40px 0px;
+}
+
+.global-text-container {
+    flex: 60%;
+    margin-right: 100px;
+    padding: 40px 0px;
+}
+
+.global-img {
+    flex: 40%;
+    position: relative;
+}
+
+.global-img img {
+    max-width: 100%;
+}
+
+.global-text-container p {
+    padding: 20px 0px;
+}
+
+.global-img::after {
+    content: '';
+    background-image: url('../images/shape-1.png');
+    background-size: contain;
+    height: 227px;
+    width: 227px;
+    position: absolute;
+    top: 220px;
+    left: 300px;
+    z-index: -1;
+}
+
+/*---footer---*/
+.footer {
+    background-color: #0B0D17;
+    width: 100%;
+    height: 100px;
+}
+
+.footer h2 {
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer-2023 {
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+
+.footer p {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 100;
+}
+
+/*Services container*/
+.services-container {
+    display: flex;
+    background-color: #2C2C2C;
+    padding: 100px 130px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+/*bio container*/
+.bio-container {
+    flex: 40%;
+    color: rgb(172, 166, 166);
+}
+
+.bio-container h2 {
+    color: white;
+}
+
+.bio-container p {
+    padding: 30px 0px;
+}
+
+/*contact button*/
+.contact-btn {
+    color: #FFFFFF;
+    background-color: #575656;
+    margin: 0px 5px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50%;
+}
+
+.contact-btn:hover {
+    transition: 500ms;
+    background-color: #FF5959;
+    color: #FFFFFF
+}
+
+/*service container*/
+.service-container {
+    display: flex;
+    flex: 60%;
+    flex-direction: row-reverse;
+}
+
+.service {
+    padding: 0px 30px;
+    color: rgb(197, 194, 194);
+}
+
+.service h3 {
+    font-size: 25px;
+    font-weight: 100;
+    color: #ffffff;
+    margin-bottom: 20px;
+
+}
+
+.service a {
+    text-decoration: none;
+    color: rgb(197, 194, 194);
+}
+
+.service a:hover {
+    color: #FF5959;
+    transition: 500ms;
+}
+
+.service p {
+    font-size: 13px;
+    padding: 10px 0px;
+}
