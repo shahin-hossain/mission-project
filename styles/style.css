@@ -48,7 +48,7 @@ h2 {
     position: relative;
 }
 
-.banner-title h1::before {
+.banner-title::before {
     content: '';
     height: 90px;
     width: 4px;
